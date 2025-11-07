@@ -151,7 +151,7 @@ export function BookingModal({ isOpen, onClose }: BookingModalProps) {
     } catch (error) {
       console.error("[v0] Error submitting order:", error)
       const errorMessage = error instanceof Error ? error.message : "Có lỗi xảy ra"
-      alert(`${errorMessage}\n\nVui lòng thử lại hoặc gọi hotline: 0123456789`)
+      alert(`${errorMessage}\n\nVui lòng thử lại hoặc gọi hotline: 0356709536`)
     } finally {
       setIsSubmitting(false)
     }
